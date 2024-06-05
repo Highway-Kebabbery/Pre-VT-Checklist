@@ -74,7 +74,7 @@ In order to achieve this, the tool performs several key actions:
 
 ### Instructions
 1. Install the required SQLite ODBC Driver linked in [Software Requirements](#software-requirements).
-2. Download the project file.
+2. Download the latest release of the project [here](https://github.com/Highway-Kebabbery/Pre-VT-Checklist/releases).
 3. Read the instructions at the top of the spreadsheet.
 4. Copy an assortment of object names from __EITHER__ the ANALYSIS or PRODUCT test objects available in cells N28:N45. Paste the objects into the golden cells of column A. For now, you __MUST__ paste the first object into cell A7. This will be fixed later.
 5. Select the appropriate object type in cell A4.
