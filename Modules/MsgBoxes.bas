@@ -12,3 +12,10 @@ End Sub
 Public Sub DbConnFail()
     MsgBox "Could not connect to the database. Try checking your connection manually."
 End Sub
+Public Sub DbConnDriverCheck(Bitness As String)
+    MsgBox "Failed to connect to the SQLite database." & vbCrLf & _
+           "It appears you are using the " & Bitness & " version of Microsoft Office." & vbCrLf & _
+           "Please ensure you are using the appropriate version of the SQLite ODBC driver for your Office installation.", _
+           vbCritical, "Connection Error"
+End Sub
+

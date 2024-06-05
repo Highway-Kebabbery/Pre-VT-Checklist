@@ -69,7 +69,21 @@ End If
 'create connection with connection string and open connection
 Set Conn = New ADODB.Connection
 Conn.connectionString = connectionString
+On Error GoTo ConnectionError
 Conn.Open
+Exit Function
+
+'Demo version of project uses SQLite ODBC Driver to facilitate database connection.
+'It's possible for people to install the wrong bit version of the driver, so I added this to help them if this happens.
+ConnectionError:
+    Dim Bitness As String
+    #If Win64 Then
+        Bitness = "64-bit"
+    #Else
+        Bitness = "32-bit"
+    #End If
+    MsgBoxes.DbConnDriverCheck Bitness
+    End
 End Function
 Private Function CloseConnection()
 'Closes database connection if open
