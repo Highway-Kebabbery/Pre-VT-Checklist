@@ -22,7 +22,7 @@ This project presented many challenges and it represents a steep increase in com
 * I learned how to (re-)format a spreadsheet using VBA (which is amazing because nobody seems to know how to paste text-only in my beautiful works of art).
 
 **SQL/VBA:**
-* I got a lot of practice writing flexible SQL statement templates that take variable input.
+* I gained a lot of practice writing flexible SQL query templates that take variable input.
 * I learned how to connect a VBA application's back end to both an Oracle SQL server (in the original implementation) and to a SQLite file using an ODBC for SQLite driver (in the demonstration version of the application)
 * I learned that SQLite does not support the CLOB data type, and furthermore that you have to check the database structure to see the actual data type, because "SELECT type_of() FROM <table_name>" seems only to return the data type that SQLite thinks is appropriate given its flexible data typing.
 
@@ -70,16 +70,18 @@ In order to achieve this, the tool performs several key actions:
   * Not built for MacOS or Linux systems
 * Microsoft Excel
 * Microsoft ActiveX Data Objects 6.1 Library (other versions may work)
-* SQLite ODBC Driver available <a href="http://www.ch-werner.de/sqliteodbc/" target="_blank">here</a>. (Written and tested using the Win64 version: sqliteodbc_w64.exe)
+* SQLite ODBC Driver available <a href="http://www.ch-werner.de/sqliteodbc/" target="_blank">here</a>. (Choose Win32 or Win64 based on the bitness of your Microsoft Office installation.)
 
 ### Instructions
 1. Install the required SQLite ODBC Driver linked in [Software Requirements](#software-requirements).
 2. Download the latest release of the project [here](https://github.com/Highway-Kebabbery/Pre-VT-Checklist/releases).
-3. Read the instructions at the top of the spreadsheet.
-4. Copy an assortment of object names from __EITHER__ the ANALYSIS or PRODUCT test objects available in cells N28:N45. Paste the objects into the golden cells of column A. For now, you __MUST__ paste the first object into cell A7. This will be fixed later.
-5. Select the appropriate object type in cell A4.
-6. Click "Browse."
-7. Check status messages in column L.
+3. Office may block the content of the application because it contains macros. Right-click "Pre-VT Checklist.xlsm" > select "Properties" > select "Unblock" at the bottom og the "General" tab if the option appears.
+4. You may need to select the option to "Enable Macros" in a yellow ribbon under the main menu of the Excel file.
+5. Read the instructions at the top of the spreadsheet.
+6. Copy an assortment of object names from __EITHER__ the ANALYSIS or PRODUCT test objects available in cells N28:N45. Paste the objects into the golden cells of column A. For now, you __MUST__ paste the first object into cell A7. This will be fixed later.
+7. Select the appropriate object type in cell A4.
+8. Click "Browse."
+9. Check status messages in column L.
 
 ## Technology
 * **Visual Basic for Applications (VBA):** I learned VBA for this project because it's the internal language for Microsoft Office applications.

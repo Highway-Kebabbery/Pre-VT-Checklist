@@ -15,6 +15,7 @@ Attribute VB_Exposed = False
 '
 '
 'Nathan Whisman: Reassigned recSet as a class attribute which removed the need for a few lines of code and fixed an error I encountered. 07Mar2024
+'                Added error handling for users with the wrong bit version of SQLite ODBC Driver to CreateConnection. 05Jun2024
 '*************************************************************************************************************************
 
 'Declare global class variables:
