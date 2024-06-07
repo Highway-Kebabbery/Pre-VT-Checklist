@@ -10,7 +10,7 @@ Given that a batch may contain hundreds of supporting objects across dozens of t
 This project was scrubbed of any proprietary information and I built new databases with dummy data using SQLite for the purpose of demonstration.
 
 ### What I Learned
-This project presented many challenges and it represents a steep increase in complexity over my previous projects. I knew the fundamentals going into this project, but it gave me my first real opportunity to use everything that I knew as well as so much more. I'll surely forget all of the minutia by the time I interview for a job, so here's what I still remember having learned as of this writing:
+This project presented many challenges and it represents a steep increase in complexity over my previous projects. I knew the fundamentals going into this project, but it gave me my first real opportunity to use everything that I knew as well as so much more. I'll surely forget all of the minutiae by the time I interview for a job, so here's what I still remember having learned as of this writing:
 
 **VBA**:
 * First and foremost, I learned an entirely new language just to complete this project: Visual Basic for Applications (VBA). Much of what I learned entails little more than implementing fundamental concepts in a new language.
@@ -75,7 +75,7 @@ In order to achieve this, the tool performs several key actions:
 ### Instructions
 1. Install the required SQLite ODBC Driver linked in [Software Requirements](#software-requirements).
 2. Download the latest release of the project [here](https://github.com/Highway-Kebabbery/Pre-VT-Checklist/releases).
-3. Office may block the content of the application because it contains macros. Right-click "Pre-VT Checklist.xlsm" > select "Properties" > select "Unblock" at the bottom og the "General" tab if the option appears.
+3. Office may block the content of the application because it contains macros. Right-click "Pre-VT Checklist.xlsm" > select "Properties" > select "Unblock" at the bottom of the "General" tab if the option appears.
 4. You may need to select the option to "Enable Macros" in a yellow ribbon under the main menu of the Excel file.
 5. Read the instructions at the top of the spreadsheet.
 6. Copy an assortment of object names from __EITHER__ the ANALYSIS or PRODUCT test objects available in cells N28:N45. Paste the objects into the golden cells of column A. For now, you __MUST__ paste the first object into cell A7. This will be fixed later.
