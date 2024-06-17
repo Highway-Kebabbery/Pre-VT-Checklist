@@ -57,20 +57,7 @@ In order to achieve this, the tool performs several key actions:
 Thank you to Daniel Guichard for authoring the class module that establishes the database connection. This module required only minor modifications for my purposes.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-### What I Learned
+## What I Learned
 This project presented many challenges and it represents a steep increase in complexity over my previous projects. I knew the fundamentals going into this project, but it gave me my first real opportunity to use everything that I knew as well as so much more. I'll surely forget all of the minutiae by the time I interview for a job, so here's what I still remember having learned as of this writing:
 
 **VBA**:
@@ -96,12 +83,14 @@ This project presented many challenges and it represents a steep increase in com
 This was an extra-curricular project that was secondary to, but intended to support, my primary task of testing the data we migrated. As such, there are things I would do differently under less constrained circumstances.  The main thing I would change about this project is to go back and rewrite my classes to be truly encapsulated and accessible only through public getter, setter, and deleter functions. The class I wrote last, ColTitles, meets these criteria, but I was under a very tight deadline and still learning VBA when the rest of the project was written so I wrote what worked and moved on. I understand how these class modules can be improved. I would also update the functionality checking to see if all parent objects were located in the D3 database. This represents a way to make the application more robust against "incorrect" use.
 
 ### Why I'm Showcasing this Work
-This project not only shows that I understand the fundamentals of writing software, but I firmly believe that it also shows that I am solidly above the level of a junior software engineer and, as such, could be hired *above* the level of junior engineer.
+This project not only shows that I understand the fundamentals of writing software, but I firmly believe that it also shows that I am solidly above the level of a junior software engineer and, as such, could be hired as a mid-level engineer.
 
 This work displays:
 * My grasp of fundamental programming concepts, including object oriented programming.
-* My willingness and ability to learn an entirely new language for a project.
-* My ability to add sensible comments, though I'll note that some additional commentary was added because I always knew this would be a portfolio piece and felt they were appropriate in that context.
+* My knowledge of SQL.
+* My willingness and ability to learn an entirely new language for a project (namely: VBA).
+* My ability to add sensible comments.
+  * I'll note that some additional commentary was added because I always knew this would be a portfolio piece and felt they were appropriate in that context to demonstrate *why* I made decisions I made. This will help me more thoroughly discuss my work in the future when reviewing it for interviews.
 * My ability to program without magic numbers.
 * My ability to design programs that short-circuit to optimize performance.
 * My ability to build the back end of an application that communicates with a database.
